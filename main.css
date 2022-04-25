@@ -1,0 +1,511 @@
+/* Colors used
+
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+
+### Neutral
+
+- Very Pale Cyan: hsl(193, 100%, 96%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Grayish Blue: hsl(208, 11%, 55%) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	font-family: 'Open Sans';
+}
+
+p {
+	font-size: 16px;
+	line-height: 28px;
+	font-family: 'Open Sans';
+}
+
+h1 {
+	font-size: 28px;
+	line-height: 40px;
+	font-family: 'Poppins';
+}
+
+h2 {
+	line-height: 40px;
+	font-family: 'Poppins';
+}
+
+.container {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.bg {
+	width: 90%;
+	padding: 0% 5% 0% 5%;
+	height: auto;
+	margin: 0;
+	background: url('./images/bg-hero-mobile.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: hsl(193, 100%, 96%);
+
+}
+
+header {
+	width: 100%;
+	overflow: auto;
+	padding: 5px 0px 5px 0;
+	background: transparent;
+	display: block;
+}
+
+header .logo {
+	float: left;
+}
+
+header .logo img {
+	width: 100px;
+	padding: 2.5px 0px 2.5px 0px;
+}
+
+header .button-div {
+	float: right;
+}
+
+header .button-div button {
+	padding: 2.5px 20px 2.5px 20px;
+	border-radius: 10px 10px 10px 10px;
+	background: #fff;
+	border: none;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+header .button-div button:hover {
+	color: hsl(208, 11%, 55%);
+}
+
+.hero-container {
+	text-align: center;
+	overflow: auto;
+}
+
+.hero-container>.hero {
+	width: 90%;
+	padding: 5%;
+	float: left;
+}
+
+hero-container>.hero-img {
+	width: 90%;
+	padding: 5%;
+	float: left;
+}
+
+
+.hero-container .hero button {
+	padding: 12px;
+	width: 80%;
+	border-radius: 20px 20px 20px 20px;
+	border: none;
+	background: hsl(322, 100%, 66%);
+	color: white;
+	font-weight: bold;
+}
+
+.hero-container .hero button:hover {
+	background: hsla(322, 100%, 66%, 0.5);
+}
+
+.hero-container .hero-img img {
+	width: 100%;
+	height: auto;
+}
+
+
+.main-content {
+	background: #fff;
+	width: 90%;
+	padding: 5%;
+	margin: 0;
+}
+
+.tab_1,
+.tab_2,
+.tab_3 {
+	width: 80%;
+	padding: 10%;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border-radius: 15px 15px 15px 15px;
+	margin: 10% 0% 0% 0%;
+}
+
+.tab_1 .tab-img,
+.tab_2 .tab-img,
+.tab_3 .tab-img {
+	width: 100%;
+}
+
+.tab_1 .tab-img img,
+.tab_2 .tab-img img,
+.tab_3 .tab-img img {
+	width: 100%;
+}
+
+.tab_1 .tab-text,
+.tab_2 .tab-text,
+.tab_3 .tab-text {
+	width;
+	100%;
+}
+
+.tab_1 .tab-text p,
+.tab_2 .tab-text p,
+.tab_3 .tab-text p {
+	font-size: 16px;
+	line-height: 25px;
+	color: hsl(208, 11%, 55%);
+}
+
+.aside {
+	width: 80%;
+	padding: 5%;
+	margin: 5%;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border-radius: 15px 15px 15px 15px;
+	position: relative;
+	bottom: -75px;
+	z-index: 1000;
+	background: #fff;
+}
+
+.aside button {
+	padding: 12px;
+	width: 70%;
+	border-radius: 20px 20px 20px 20px;
+	border: none;
+	background: hsl(322, 100%, 66%);
+	color: white;
+	font-weight: bold;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.aside button:hover {
+	background: hsla(322, 100%, 66%, 0.5);
+}
+
+.aside h3 {
+	font-size: 20px;
+}
+
+
+footer {
+	background: hsl(192, 100%, 9%);
+	color: lightgrey;
+	width: 90%;
+	margin-top: 0;
+	padding: 150px 5% 10% 5%;
+	overflow: auto;
+}
+
+
+footer .logo {
+	width: 100%;
+}
+
+footer .logo img {
+	width: 150px;
+
+}
+
+.contact,
+.attribute,
+.quick_links {
+	width: 100%;
+	float: none;
+	margin: 0 0 50px 0;
+}
+
+.one {
+	width: 100%;
+	overflow: auto;
+	display: flex;
+
+}
+
+.attribute .social-icons {
+	margin: 0px 0px 0px 15px;
+	text-align: center;
+}
+
+.attribute .social-icons i {
+	padding: 10px;
+	margin: 0 20px 0 0;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.attribute .social-icons .attribute-text {
+	position: none;
+	bottom: none;
+}
+
+.icon {
+	padding: 0px 10px 0px 0px;
+}
+
+.text {
+	padding: 0px 0px 0px 10px;
+}
+
+.text p {
+	display: inline;
+	font-size: 18px;
+}
+
+.quick_links ul {
+	padding: 0;
+	margin: 0px 0 0px 0;
+	list-style-type: none;
+	float: none;
+	width: 100%;
+	margin: 0% 2.5% 0% 0%;
+}
+
+.quick_links ul li {
+	padding: 10px 0px 10px 0px;
+	font-size: 22px;
+}
+
+.quick_links ul li:hover {
+	text-decoration: underline;
+}
+
+
+/* Desktop design */
+
+@media screen and (min-width : 1024px) {
+	.bg {
+		width: 90%;
+		padding: 0% 5% 0% 5%;
+		height: auto;
+		margin: 0;
+		background: url('./images/bg-hero-desktop.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: hsl(193, 100%, 96%);
+
+
+	}
+
+	p {
+
+		line-height: 25px;
+	}
+
+	h1 {
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+
+	.hero-container {
+		text-align: left;
+	}
+
+	.hero-container>.hero {
+		width: 37.5%;
+		padding: 5%;
+		float: left;
+
+	}
+
+	.hero-container>.hero-img {
+		width: 42.5%;
+		padding: 5%;
+		float: left;
+	}
+
+	.hero-container .hero button {
+		padding: 12px;
+		width: 60%;
+		border-radius: 20px 20px 20px 20px;
+		border: none;
+		background: hsl(322, 100%, 66%);
+		color: white;
+		font-weight: bold;
+	}
+
+	.hero-container>.hero-img {
+
+		height: 100%;
+	}
+
+	.tab_1,
+	.tab_2,
+	.tab_3 {
+		width: 90%;
+		padding: 2.5% 5% 2.5% 5%;
+		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+		text-align: left;
+		border-radius: 15px 15px 15px 15px;
+		margin: 5% 0% 0% 0%;
+		overflow: auto;
+	}
+
+	.tab_1 .tab-img {
+		width: 50%;
+		float: right;
+		text-align: right;
+	}
+
+
+	.tab_1 .tab-text {
+		width: 40%;
+		padding: 10% 5% 10% 5%;
+		float: right;
+	}
+
+	.tab_1 .tab-img img {
+		width: 80%;
+	}
+
+	.tab_1 .tab-text p {
+		font-size: 16px;
+		line-height: 25px;
+		color: hsl(208, 11%, 55%);
+	}
+
+
+	.tab_2 .tab-img {
+		width: 50%;
+		float: left;
+		text-align: left;
+
+	}
+
+
+	.tab_2 .tab-text {
+		width: 40%;
+		padding: 10% 5% 10% 5%;
+		float: right;
+	}
+
+	.tab_2 .tab-img img {
+		width: 80%;
+
+	}
+
+	.tab_2 .tab-text p {
+		font-size: 16px;
+		line-height: 25px;
+		color: hsl(208, 11%, 55%);
+	}
+
+	.tab_3 .tab-img {
+		width: 50%;
+		float: right;
+		text-align: right;
+	}
+
+
+	.tab_3 .tab-text {
+		width: 40%;
+		padding: 10% 5% 10% 5%;
+		float: right;
+	}
+
+	.tab_3 .tab-img img {
+		width: 80%;
+	}
+
+	.tab_3 .tab-text p {
+		font-size: 16px;
+		line-height: 25px;
+		color: hsl(208, 11%, 55%);
+	}
+
+
+	.aside {
+		width: 40%;
+		padding: 2.5% 10% 2.5% 10%;
+		margin: 5%;
+		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+		text-align: center;
+		border-radius: 15px 15px 15px 15px;
+		position: relative;
+		bottom: -150px;
+		z-index: 1000;
+		background: #fff;
+
+	}
+
+
+	.aside button {
+		padding: 20px;
+		width: 60%;
+		border-radius: 25px 25px 25px 25px;
+		border: none;
+		background: hsl(322, 100%, 66%);
+		color: white;
+		font-weight: bold;
+		box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+
+	}
+
+	.aside h3 {
+		font-size: 35px;
+	}
+
+	.quick_links {
+		width: 33%;
+		float: left;
+		margin: 0 2.25% 0 2.25%;
+
+	}
+
+	.contact {
+		width: 33%;
+		float: left;
+		margin: 0 4.5% 0 0;
+	}
+
+	.attribute {
+		width: 25%;
+		float: left;
+		margin: 0%;
+	}
+
+	.quick_links ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		float: left;
+		width: 40%;
+		margin: 0% 2.5% 0% 2.5%;
+	}
+
+	.attribute .social-icons {
+		text-align: left;
+	}
+
+	.attribute .social-icons i {
+		margin: 0 20px 150px 0;
+	}
+
+	.attribute .social-icons .attribute-text {
+		position: relative;
+		top: 100px;
+		z-index: 10000;
+	}
+
+}
