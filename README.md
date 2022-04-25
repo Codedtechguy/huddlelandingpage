@@ -31,9 +31,12 @@ Users should be able to interact by;
 
 ### Screenshot
 
-![](./screenshot-solution.png)
+![Desktop-preview](design/desktop-preview.png)
+![Desktop-preview](design/desktop-preview-full.png)
+![Mobile-preview](design/mobile-preview.png)
+![Mobile-preview](design/mobile-preview-full.png)
 
-Above is a screenshot of the solution to the challenge taken with the Mozilla Firefox web shot tool.
+Above are screenshots of the solution to the challenge taken with the Mozilla Firefox web shot tool.
 
 This screenshot (solution) helps you have a look at the contrast between the orignal and the recreated.
 
@@ -41,8 +44,8 @@ Feel free to drop your comments and feedback
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Here is a link to the solution on frontendmentor](https://www.frontendmentor.io/solutions/responsive-order-summary-card-using-html-and-css-ryYzcb4S5)
+- Live Site URL: [Here is a link to the live site](https://codedtechguy-huddlelandingpage.netlify.app)
 
 ## My process
 
