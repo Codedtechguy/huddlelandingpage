@@ -44,7 +44,7 @@ Feel free to drop your comments and feedback
 
 ### Links
 
-- Solution URL: [Here is a link to the solution on frontendmentor](https://www.frontendmentor.io/solutions/responsive-order-summary-card-using-html-and-css-ryYzcb4S5)
+- Solution URL: [Here is a link to the solution on frontendmentor](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternative-feature-blocks-challenge-done-Hk0MkvEHq)
 - Live Site URL: [Here is a link to the live site](https://codedtechguy-huddlelandingpage.netlify.app)
 
 ## My process
