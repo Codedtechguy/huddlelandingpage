@@ -320,6 +320,11 @@ footer .logo img {
 		font-size: 40px;
 		line-height: 40px;
 	}
+header {
+
+        padding: 15px 0px 15px 0;
+
+}
 
 header .logo img {
 	width: 200px;
@@ -340,7 +345,7 @@ header .button-div button {
 		text-align: left;
 	}
 
-	.hero-container>.hero-text {
+	.hero-container>.hero {
 		width: 40%;
 		padding: 0% 5% 0% 0%;
 		float: left;
