@@ -334,7 +334,7 @@ header .logo img {
 
 
 header .button-div button {
-	padding: 15px 45px 15px 45px;
+	padding: 20px 50px 20px 50px;
 	border-radius: 25px 25px 25px 25px;
 	background: #fff;
 	border: none;
@@ -474,7 +474,7 @@ header .button-div button {
 
 
 	.aside button {
-		padding: 20px;
+		padding: 25px;
 		width: 60%;
 		border-radius: 25px 25px 25px 25px;
 		border: none;
@@ -486,7 +486,7 @@ header .button-div button {
 	}
 
 	.aside h3 {
-		font-size: 35px;
+		font-size: 28px;
 	}
 
 	.quick_links {
