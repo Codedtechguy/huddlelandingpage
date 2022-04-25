@@ -215,7 +215,7 @@ footer {
 	color: lightgrey;
 	width: 90%;
 	margin-top: 0;
-	padding: 150px 5% 10% 5%;
+	padding: 150px 5% 5% 5%;
 	overflow: auto;
 }
 
@@ -527,7 +527,7 @@ header .button-div button {
 
 	.attribute .social-icons .attribute-text {
 		position: relative;
-		top: 100px;
+		top: 80px;
 		z-index: 10000;
 	}
 
