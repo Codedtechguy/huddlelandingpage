@@ -343,10 +343,15 @@ footer .logo img {
 		float: right;
 	}
 
+        .aside {
+                width:70%;
+               }
+
         .quick_links {
 		width: 45%;
 		float: left;
 		margin: 0 0 0 5%;
+                overflow:auto;
 
 	}
 
@@ -363,6 +368,7 @@ footer .logo img {
 		width: 40%;
 		margin: 0% 0% 0% 5%;
 	}
+
 
 }
 
