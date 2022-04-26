@@ -250,6 +250,8 @@ footer .logo img {
 }
 
 .attribute .social-icons {
+        display:block;
+        width:100%;
 	margin: 0px 0px 0px 15px;
 	text-align: center;
 }
@@ -262,9 +264,10 @@ footer .logo img {
 	color: #fff;
 }
 
-.attribute .social-icons .attribute-text {
+.attribute .attribute-text {
 	position: initial;
 	bottom: none;
+        text-align:center;
 }
 
 .icon {
@@ -368,11 +371,6 @@ footer .logo img {
 		width: 40%;
 		margin: 0% 0% 0% 5%;
 	}
-
-        .attribute {
-                width:100%;
-                display:block;
-}
 
 
 }
